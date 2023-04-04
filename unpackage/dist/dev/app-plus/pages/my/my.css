@@ -1,0 +1,74 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.p-me[data-v-2f1ef635] {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+.border-item[data-v-2f1ef635] {
+  height: 4.375rem;
+  display: block;
+  flex: 4;
+  border-style: solid;
+  border-color: #ececec;
+  width: 25%;
+  border-right: 0;
+  text-align: center;
+}
+.navbar[data-v-2f1ef635] {
+  display: flex;
+  position: fixed;
+  box-sizing: border-box;
+  bottom: 0;
+  width: 100%;
+  height: 3.2rem;
+  border-top: 1px solid #ddd;
+  z-index: 200;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+/* 导航项目 */
+.navbar-item[data-v-2f1ef635] {
+  flex: 1;
+  color: #808080;
+}
+
+/* 导航图标 */
+.nav-icon[data-v-2f1ef635] {
+  padding: 0.3rem 0 0.1rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* 导航名称 */
+.name[data-v-2f1ef635] {
+  display: block;
+  font-size: 0.6875rem;
+}
+.large[data-v-2f1ef635] {
+  width: 2.5rem;
+  height: 2.5rem;
+}
